@@ -1,11 +1,29 @@
 body {
   text-align: center;
   font-family: Arial;
-  background: #111;
+  background: #222;
   color: white;
+  margin: 0;
+  padding: 0;
 }
-button {
-  font-size: 24px;
-  padding: 15px 40px;
-  margin-top: 20px;
+
+#game-area {
+  margin: 40px auto;
+  width: 400px;
+  height: 400px;
+  background: #333;
+  position: relative;
+  border: 3px solid #555;
+  border-radius: 10px;
+}
+
+#pixel {
+  width: 30px;
+  height: 30px;
+  background: #0f0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
 }
