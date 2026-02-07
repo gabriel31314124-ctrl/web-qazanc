@@ -2,14 +2,16 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Click Game</title>
+  <title>Pixel Click Game</title>
   <link rel="stylesheet" href="style.css">
   <script src="https://telegram.org/js/telegram-web-app.js"></script>
 </head>
 <body>
 <h2 id="user">Yüklənir...</h2>
 <h1>Xal: <span id="score">0</span></h1>
-<button onclick="addPoint()">CLICK</button>
+<div id="game-area">
+    <div id="pixel" onclick="clickPixel()"></div>
+</div>
 <script src="script.js"></script>
 </body>
 </html>
